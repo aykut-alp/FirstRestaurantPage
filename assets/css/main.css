@@ -1,0 +1,225 @@
+@font-face {
+  font-family: Poppins;
+  src: url(../fonts/Poppins-Light.ttf);
+  font-weight: 300;
+}
+@font-face {
+  font-family: Poppins;
+  src: url(../fonts/Poppins-Medium.ttf);
+  font-weight: 400;
+}
+@font-face {
+  font-family: Poppins;
+  src: url(../fonts/Poppins-Bold.ttf);
+  font-weight: 600;
+}
+html {
+  scroll-behavior: smooth;
+}
+html,
+body {
+  margin: 0;
+  height: 100%;
+  font-family: Poppins;
+}
+main {
+  height: 100%;
+}
+.menu {
+  width: 100%;
+  position: fixed;
+}
+.menu-scroll {
+  background-color: rgb(52, 52, 52, 0.75);
+}
+.menu-scroll ul {
+  padding: 10px 0 !important;
+  transition: 0.5s;
+}
+.menu ul {
+  padding: 30px 0;
+  margin: 0;
+  display: flex;
+  justify-content: space-around;
+  width: 100%;
+}
+.menu ul li {
+  list-style: none;
+}
+.menu ul li a {
+  text-decoration: none;
+  color: rgb(176, 176, 176);
+  font-size: 24px;
+}
+.menu ul li a:hover {
+  border-bottom: 3px solid rgb(176, 176, 176);
+  padding-bottom: 5px;
+  transition: 0.2s;
+}
+section {
+  width: 100%;
+  height: 901px;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+.ilk-kisim {
+  background-image: url("../../assets/image/ilksayfa.png");
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.ilk-kisim .hero h1 {
+  margin-top: 50px;
+  font-size: 90px;
+}
+.ilk-kisim .hero {
+  text-align: center;
+  display: grid;
+  gap: 35px;
+  justify-items: center;
+}
+.ilk-kisim .hero .hero-sub {
+  max-width: 1000px;
+  color: rgb(176, 176, 176);
+  font-size: 25px;
+  font-weight: 300;
+}
+.ilk-kisim .hero .hero-button {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  text-decoration: none;
+  font-size: 30px;
+  color: black;
+
+  padding: 10px 28px;
+  max-width: 200px;
+  border-radius: 10px;
+  background-color: rgb(165, 165, 165);
+}
+.ilk-kisim .hero .hero-button:hover {
+  background-color: rgb(112, 112, 112);
+  color: rgb(223, 223, 223);
+}
+.ilk-kisim h1 {
+  margin: 0;
+  font-size: 96px;
+  font-weight: 700;
+  color: rgb(247, 226, 167);
+}
+
+.ikinci-kisim {
+  background-image: url("../../assets/image/ikincisayfa.jpg");
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.cards {
+  display: flex;
+  gap: 30px;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+}
+.card {
+  width: 320px;
+  padding: 25px;
+  background-color: rgba(88, 88, 88, 0.5);
+  box-sizing: border-box;
+}
+.card img {
+  border-radius: 5px;
+}
+.card .card-content {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+.card .card-title {
+  font-size: 25px;
+  color: rgb(165, 165, 165);
+  align-self: center;
+  font-weight: 700;
+}
+.card .read-more {
+  padding: 10px;
+  border-radius: 10px;
+  font-size: 15px;
+  font-family: Poppins;
+  font-weight: 500;
+  color: black;
+  background-color: rgb(165, 165, 165);
+  text-decoration: none;
+  align-self: flex-end;
+}
+.card .read-more:hover {
+  background-color: rgb(112, 112, 112);
+  color: rgb(223, 223, 223);
+}
+h2 {
+  font-size: 50px;
+  color: rgb(165, 165, 165);
+  text-align: center;
+}
+.son-kisim {
+  background-image: url("../../assets/image/sonuncusayfa.png");
+}
+.son-kisim .about-title {
+  font-size: 50px;
+  color: rgb(165, 165, 165);
+  font-family: Poppins;
+  font-weight: 400;
+  margin-bottom: 20px;
+  text-align: left;
+}
+.son-kisim .about {
+  font-size: 17px;
+  color: rgb(165, 165, 165);
+  font-family: Poppins;
+  font-weight: 400;
+
+  text-align: left;
+  width: 580px;
+  padding-left: 25px;
+  padding-top: 325px;
+}
+.alt-kisim {
+  width: 100%;
+  position: absolute;
+  text-align: center;
+  margin-top: 135px;
+}
+.alt-kisim ul {
+  padding: 0;
+  margin: 0;
+  display: flex;
+  justify-content: space-around;
+  width: 100%;
+}
+.alt-kisim .alt-logo {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 50px;
+  height: 50px;
+  margin: 0;
+  border: 0;
+}
+.alt-kisim ul li {
+  list-style: none;
+
+  color: rgb(176, 176, 176);
+  font-size: 24px;
+}
+.alt-kisim ul li a {
+  text-decoration: none;
+  color: rgb(176, 176, 176);
+  font-size: 24px;
+  font-weight: 500;
+}
+.alt-kisim ul li .alt-link:hover {
+  border-bottom: 3px solid rgb(176, 176, 176);
+  padding-bottom: 5px;
+}
